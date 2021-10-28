@@ -1,0 +1,111 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
+  max-width: 1127px;
+  margin: 0 auto;
+  padding-left: 1%;
+  margin-top: -11vh;
+  padding-right: 1%;
+}
+.tableWrap {
+  width: 100%;
+  overflow: hidden;
+  background-color: white;
+  border: none;
+  border-radius: 0.4rem;
+  border-collapse: separate;
+  border-spacing: 0;
+  text-align: right;
+  font-size: 1.4rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 15px -3px;
+}
+.tableHead {
+  vertical-align: middle;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.tableHeadRow {
+  font-weight: inherit;
+  text-align: inherit;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.tableCellHead {
+  color: #686868;
+  font-weight: inherit;
+  text-align: center;
+  padding: 1.1rem 0.9rem;
+  padding-bottom: 0rem;
+}
+.tableCellHeadName {
+  color: #686868;
+  font-weight: inherit;
+  text-align: left;
+  padding: 1.1rem 0.9rem;
+
+  padding-bottom: 0rem;
+}
+.tableBody {
+}
+.tableMoreButton {
+  display: block;
+  color: white;
+  background-color: rgb(24, 198, 131);
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  margin: 2rem 0;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 15px -3px;
+  font-weight: 700;
+  font-size: 1.4rem;
+  font-family: "Lato", inherit;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+.tableRowWrap {
+  font-weight: inherit;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color 1s ease;
+}
+.tableCell {
+  border-top: 1px solid rgba(34, 36, 38, 0.1);
+  font-weight: inherit;
+  vertical-align: middle;
+  padding: 1.1rem 0.9rem;
+}
+.tableCellName {
+  border-top: 1px solid rgba(34, 36, 38, 0.1);
+  font-weight: inherit;
+  vertical-align: middle;
+  text-align: left;
+  padding: 1.1rem 0.9rem;
+}
+.currencyImg {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  margin-right: 12px;
+  border-radius: 48%;
+}
+.currencyName {
+  vertical-align: middle;
+  font-size: 1.4rem;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+}
+.currencyShort {
+  color: #686868;
+  font-weight: 600;
+  font-size: 1.1rem;
+  display: block;
+}

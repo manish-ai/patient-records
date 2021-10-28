@@ -1,0 +1,36 @@
+.statsContainer {
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 120px;
+  background: linear-gradient(to right, rgb(63, 81, 181), rgb(100, 181, 246))
+    rgb(255, 255, 255);
+}
+.statsList {
+  width: 100%;
+  max-width: 1127px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem 0;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+.statsItemWrap {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  text-transform: uppercase;
+  width: 16%;
+}
+.statsTitle {
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+.statsValue {
+  font-weight: 400;
+  font-size: 2.1rem;
+}
