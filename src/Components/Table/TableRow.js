@@ -16,11 +16,12 @@ const RepoTableRow = ({data, index}) => {
             {/* <span className={Styles.currencyShort}>{data.symbol}</span> */}
           </span>
             </td>
-            <td className={Styles.tableCell}>
+            <td className={Styles.tableCellName}>
                 {data.name}
             </td>
-            <td className={Styles.tableCell}>
-           {data.description?.length < 25 ?data.description : "" }
+            <td className={Styles.tableCellNameDesc}>
+           {/* {data.description?.length < 25 ?data.description : "" } */}
+           {data.description}
             </td>
             <td className={Styles.tableCell}>
             {data.stargazers_count}

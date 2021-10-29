@@ -10,7 +10,8 @@
   max-width: 1127px;
   margin: 0 auto;
   padding-left: 1%;
-  margin-top: -11vh;
+  /* margin-top: -11vh; */
+  margin-top: 1vh;
   padding-right: 1%;
 }
 .tableWrap {
@@ -37,20 +38,22 @@
   cursor: pointer;
 }
 .tableCellHead {
-  color: #686868;
+  color: #333333;
+  font-weight: 600 !important;
   font-weight: inherit;
   text-align: center;
-  padding: 1.1rem 0.9rem;
+  padding: 1.4rem 0.9rem;
   padding-bottom: 0rem;
 }
 .tableCellHeadName {
-  color: #686868;
+  color: #333333;
+  font-weight: 600 !important;
   font-weight: inherit;
   text-align: left;
-  padding: 1.1rem 0.9rem;
-
-  padding-bottom: 0rem;
+  padding: 1.4rem 0.9rem;
+  padding-bottom: 0rem !important;
 }
+
 .tableBody {
 }
 .tableMoreButton {
@@ -88,6 +91,18 @@
   text-align: left;
   padding: 1.1rem 0.9rem;
 }
+.tableCellNameDesc {
+  border-top: 1px solid rgba(34, 36, 38, 0.1);
+  font-weight: inherit;
+  margin-left: -4rem !important;
+  vertical-align: middle;
+  text-align: left;
+  padding: 1.1rem 0.9rem;
+  max-width: 10vw !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
 .currencyImg {
   display: inline-block;
   vertical-align: middle;
@@ -108,4 +123,16 @@
   font-weight: 600;
   font-size: 1.1rem;
   display: block;
+}
+.noData {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* margin-left: 12vw; */
+  text-align: center;
+  margin-top: 3em;
+  color: white;
+  font-size: 27px;
+  font-weight: 600;
+  margin-bottom: 3em;
 }

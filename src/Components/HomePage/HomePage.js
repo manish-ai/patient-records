@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Header from "../Common/Header";
-import CryptoTable from "../Table/Table";
-import Stats from "../Stats/Stats";
+import RepoTable from "../Table/Table";
 
 const HomePage = () => {
 
@@ -9,10 +8,9 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div>
+    <div style={{background:"linear-gradient(to right, rgb(63, 81, 181), rgb(100, 181, 246)) rgb(255, 255, 255)"}}> 
       <Header />
-      <Stats />
-      <CryptoTable/>
+      <RepoTable/>
     </div>
   );
 };

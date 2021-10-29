@@ -6,12 +6,13 @@
   /* box-shadow: 0px 3px 30px #00000014; */
 
   z-index: 4;
-  background-color: white;
+  /* background-color: #161b22; */
 }
 .searchBar {
   margin: 0.9rem 0;
   border-radius: 8px;
   padding-left: 9px;
+  height: 2.6em;
 }
 .navbarContainer {
   margin: 0;
@@ -19,10 +20,11 @@
   width: 100%;
   min-width: 98vw;
   max-height: 6rem;
-  background-color: white;
+  background-color: #1c2f4e;
   height: 12vh;
   display: flex;
   z-index: 7;
+  color: #f0f6fc;
   padding-top: 0.8rem;
   position: fixed;
   padding: 0 10vw;
@@ -31,10 +33,13 @@
 }
 
 .left {
-  float: left;
+  /* float: left; */
   display: flex;
-  width: 25%;
-  flex: 1;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .links {
@@ -67,38 +72,22 @@
   width: 14rem;
   cursor: pointer;
 }
-.center {
-  display: flex;
-  width: 44%;
-  margin: 0rem auto;
-  align-content: center;
-  margin-top: 1rem;
-}
-.right {
-  width: 30%;
-  float: right;
-  flex: 0;
-  display: flex;
-  justify-content: flex-end;
-}
 
-.right a:hover {
-  text-decoration: none;
-}
-
-.search {
-  margin-top: 1rem;
+.searchBar {
+  margin-top: 0.4rem;
   display: flex;
   height: 3em;
-  align-items: center;
-  align-items: center;
+  width: 99%;
+  color: black;
 }
 
 .searchIcon {
   margin-right: 1.5em;
   cursor: pointer;
-  margin-left: -3rem;
-  margin-top: 1.5em;
+  margin-left: 0.5rem;
+  margin-top: 0em;
+  color: #f0f6fc;
+  background: #1c2f4e;
 }
 
 .notification {
